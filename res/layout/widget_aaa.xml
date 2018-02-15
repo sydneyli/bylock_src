@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/widget_margin">
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/update" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="4dp" android:text="@string/accept" style="@*style/TextAppearance.Medium" />
+</LinearLayout>

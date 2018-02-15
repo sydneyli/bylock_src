@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item net.client.by.lock:icon="@drawable/action_attach" net.client.by.lock:id="@id/menu_attach" net.client.by.lock:title="@string/menu_attach" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always" />
+    <item net.client.by.lock:icon="@drawable/action_send" net.client.by.lock:id="@id/menu_send" net.client.by.lock:title="@string/menu_send" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always" />
+</menu>

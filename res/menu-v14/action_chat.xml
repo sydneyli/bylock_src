@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item net.client.by.lock:icon="@drawable/action_lock_1" net.client.by.lock:id="@id/menu_lock" net.client.by.lock:title="@string/menu_show_lock" net.client.by.lock:showAsAction="ifRoom" net.client.by.lock:showAsAction="always" />
+    <item net.client.by.lock:icon="@drawable/action_call" net.client.by.lock:id="@id/menu_call" net.client.by.lock:title="@string/menu_make_call" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always" />
+    <item net.client.by.lock:icon="@drawable/action_menu" net.client.by.lock:id="@id/menu_menu" net.client.by.lock:title="@string/menu_menu" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always">
+        <menu>
+            <item net.client.by.lock:icon="@drawable/action_sendfile" net.client.by.lock:id="@id/menu_file" net.client.by.lock:title="@string/menu_send_file" />
+            <item net.client.by.lock:icon="@drawable/action_sendmail" net.client.by.lock:id="@id/menu_mail" net.client.by.lock:title="@string/menu_send_mail" />
+            <item net.client.by.lock:icon="@drawable/action_viewprofile" net.client.by.lock:id="@id/menu_profile" net.client.by.lock:title="@string/menu_show_profile" />
+            <item net.client.by.lock:icon="@drawable/action_clearhistory" net.client.by.lock:id="@id/menu_clear_history" net.client.by.lock:title="@string/menu_clear_history" />
+        </menu> />
+</menu>

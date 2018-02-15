@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <dimen name="abc_search_view_text_min_width">192.0dip</dimen>
+    <dimen name="aaa_main_view_bottom_margin">25.0dip</dimen>
+    <dimen name="aaa_lock_settings_margin">55.0dip</dimen>
+    <dimen name="aaa_contact_margin">100.0dip</dimen>
+    <dimen name="aaa_splash_height">760.0dip</dimen>
+    <dimen name="aaa_splash_logo_height">375.0dip</dimen>
+    <dimen name="aaa_splash_logo_width">225.0dip</dimen>
+</resources>

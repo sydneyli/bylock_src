@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/aaa_unit_one" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/aaa_blue_text_over_white_button" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/button1" android:background="@color/White" android:paddingLeft="@dimen/aaa_unit_one" android:paddingRight="@dimen/aaa_unit_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaa_unit_half" android:text="@string/username" />
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/textView1" android:background="@drawable/button_frame" android:paddingLeft="@dimen/aaa_unit_mini" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080034" android:text="@string/app_name" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaa_unit_half" android:text="@string/name" />
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/textView2" android:background="@drawable/button_frame" android:paddingLeft="@dimen/aaa_unit_mini" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080034" android:text="@string/app_name" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaa_unit_half" android:text="@string/nick" />
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/textView3" android:background="@drawable/button_frame" android:paddingLeft="@dimen/aaa_unit_mini" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080034" android:text="@string/app_name" />
+        <TextView android:textColor="@color/White" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/aaa_unit_half" android:text="@string/app_name" />
+        <Button android:textColor="@color/aaa_blue_text_over_white_button" android:id="@id/button2" android:background="@color/White" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/validate" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="abc_action_bar_default_height">56.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="abc_action_bar_title_text_size">18.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_text_size">14.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin">9.0dip</dimen>
+    <dimen name="aaa_unit_screen_half">300.0dip</dimen>
+    <dimen name="aaa_unit_screen_quarter">150.0dip</dimen>
+    <dimen name="aaa_unit_quad">150.0dip</dimen>
+    <dimen name="aaa_unit_tri">112.0dip</dimen>
+    <dimen name="aaa_unit_duo">75.0dip</dimen>
+    <dimen name="aaa_unit_one">36.0dip</dimen>
+    <dimen name="aaa_unit_half">18.0dip</dimen>
+    <dimen name="aaa_unit_mini">11.0dip</dimen>
+    <dimen name="aaa_text_mini">18.0sp</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:textAppearance="?unknown_attr_ref: 1010040" android:id="@ba/afc_simple_text_input_view_text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@ay/afc_5dp" android:singleLine="true" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aaa_unit_screen_half">160.0dip</dimen>
+    <dimen name="aaa_unit_screen_quarter">80.0dip</dimen>
+    <dimen name="aaa_unit_quad">80.0dip</dimen>
+    <dimen name="aaa_unit_tri">60.0dip</dimen>
+    <dimen name="aaa_unit_duo">40.0dip</dimen>
+    <dimen name="aaa_unit_one">20.0dip</dimen>
+    <dimen name="aaa_unit_half">10.0dip</dimen>
+    <dimen name="aaa_unit_mini">6.0dip</dimen>
+    <dimen name="aaa_text_mini">13.0sp</dimen>
+</resources>

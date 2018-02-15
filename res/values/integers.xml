@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="afc_pkey_display_view_type_def">0</integer>
+    <integer name="afc_pkey_display_sort_type_def">0</integer>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="abc_max_action_buttons">4</integer>
+    <integer name="abc_max_action_buttons">5</integer>
+    <integer name="abc_max_action_buttons">3</integer>
+    <integer name="abc_max_action_buttons">4</integer>
+    <integer name="abc_max_action_buttons">5</integer>
+    <integer name="abc_max_action_buttons">5</integer>
+</resources>

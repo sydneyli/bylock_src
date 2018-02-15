@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="widget_info">res/xml/widget_info.xml</xml>
+</resources>

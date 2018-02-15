@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/WhiteSmoke" android:padding="@dimen/aaa_unit_one" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:textColor="@color/aaa_blue_text_over_white_button" android:textColorHint="@color/aaa_blue_hint_over_white_edittext" android:id="@id/editText1" android:background="@drawable/blue_frame_username" android:paddingLeft="@dimen/aaa_unit_mini" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080034" android:layout_marginBottom="@dimen/aaa_unit_one" android:hint="@string/name">
+        <requestFocus />
+    </EditText>
+    <Button android:textColor="@color/White" android:id="@id/button1" android:background="@color/aaa_blue_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" android:ems="5" android:layout_below="@id/editText1" android:layout_alignRight="@id/editText1" />
+    <Button android:textColor="@color/White" android:id="@id/button2" android:background="@color/aaa_blue_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:ems="5" android:layout_below="@id/editText1" android:layout_alignLeft="@id/editText1" />
+</RelativeLayout>

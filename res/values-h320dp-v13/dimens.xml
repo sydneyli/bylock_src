@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aaa_splash_height">175.0dip</dimen>
+    <dimen name="aaa_splash_logo_height">96.0dip</dimen>
+    <dimen name="aaa_splash_logo_width">60.0dip</dimen>
+    <dimen name="aaa_call_active_proximitive_height">236.0dip</dimen>
+</resources>

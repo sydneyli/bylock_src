@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="afc_button_location" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/afc_selector_button_location_dark</item>
+        <item name="android:padding">@dimen/afc_5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_margin">@dimen/afc_5dp</item>
+        <item name="android:maxWidth">@dimen/afc_button_location_max_width</item>
+        <item name="android:minWidth">@dimen/afc_button_location_min_width</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="@android:style/Widget.Holo.ProgressBar.Horizontal" />
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="@android:style/Widget.Holo.ProgressBar" />
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="@android:style/Widget.Holo.AutoCompleteTextView" />
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView" />
+    <style name="Theme.Base" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+    <style name="AAATheme" parent="@style/AppBaseTheme">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/AAAActionBar</item>
+        <item name="android:dropDownSpinnerStyle">@style/AAADropDownSpinnerStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/AAAOverflow</item>
+        <item name="android:homeAsUpIndicator">@drawable/back</item>
+    </style>
+    <style name="AppBaseTheme.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar" />
+    <style name="AppBaseTheme.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+    <style name="AAAActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:displayOptions">showHome|useLogo</item>
+        <item name="background">@null</item>
+    </style>
+    <style name="AAADropDownListView" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">@color/Background</item>
+        <item name="android:listSelector">@drawable/action_bar_list_view_selector</item>
+    </style>
+    <style name="AAADropDownSpinnerStyle" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@color/WhiteSmoke</item>
+    </style>
+</resources>

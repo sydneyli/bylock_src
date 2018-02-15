@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/aaa_call_text_size" android:textColor="@color/White" android:background="@color/aaa_blue_button_background" android:paddingLeft="@dimen/aaa_unit_half" android:paddingRight="@dimen/aaa_unit_half" android:layout_width="match_parent" android:layout_height="wrap_content" />

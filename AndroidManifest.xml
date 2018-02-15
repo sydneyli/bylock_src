@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="17" android:versionName="1.1.7" package="net.client.by.lock" platformBuildVersionCode="21" platformBuildVersionName="5.0-1521886">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="21" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <application android:theme="@style/AAATheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:persistent="true" android:clearTaskOnLaunch="true" android:allowBackup="false" android:hardwareAccelerated="false">
+        <activity android:theme="@style/AAATheme.NoActionBar" android:name="net.client.by.lock.gui.activity.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AAATheme.NoActionBar" android:name="net.client.by.lock.gui.activity.RegisterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AAATheme.NoActionBar.Fullscreen" android:name="net.client.by.lock.gui.activity.SplashActivity" android:screenOrientation="portrait" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="net.client.by.lock.gui.activity.SettingsActivity" android:screenOrientation="portrait" android:parentActivityName="net.client.by.lock.gui.activity.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".activity.MainActivity" />
+        </activity>
+        <activity android:theme="@style/AAATheme.NoActionBar" android:name="net.client.by.lock.gui.activity.PinActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" android:noHistory="true" />
+        <activity android:name="net.client.by.lock.gui.activity.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:name="net.client.by.lock.gui.activity.ChatActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" android:parentActivityName="net.client.by.lock.gui.activity.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".activity.MainActivity" />
+        </activity>
+        <activity android:theme="@style/AAATheme.NoActionBar" android:name="net.client.by.lock.gui.activity.PrngActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AAATheme.NoActionBar" android:name="net.client.by.lock.gui.activity.ValidateActivity" android:screenOrientation="portrait" />
+        <activity android:name="net.client.by.lock.gui.activity.ContactActivity" android:screenOrientation="portrait" android:keepScreenOn="true" android:parentActivityName="net.client.by.lock.gui.activity.ChatActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".activity.ChatActivity" />
+        </activity>
+        <activity android:name="net.client.by.lock.gui.activity.SelectFriendsActivity" android:screenOrientation="portrait" android:noHistory="true" />
+        <activity android:name="net.client.by.lock.gui.activity.SelectFilesActivity" android:screenOrientation="portrait" />
+        <activity android:name="net.client.by.lock.gui.activity.VirtualDriveActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AAATheme.NoActionBar" android:name="net.client.by.lock.gui.activity.CallActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" android:showOnLockScreen="true" />
+        <activity android:name="net.client.by.lock.gui.activity.ReadIMailActivity" android:screenOrientation="portrait" />
+        <activity android:name="net.client.by.lock.gui.activity.ReadOMailActivity" android:screenOrientation="portrait" />
+        <receiver android:name="net.client.by.lock.reciever.NetworkStatusReciever" />
+        <receiver android:name="net.client.by.lock.reciever.AlarmReceiver" />
+        <receiver android:name="net.client.by.lock.reciever.ScreenReciever" />
+        <receiver android:name="net.client.by.lock.reciever.WidgetReciever">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info" />
+        <service android:label="AAA-Background" android:name=".service.BackgroundService" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="group.pals.android.lib.ui.filechooser.FileChooserActivity" />
+        <service android:name="group.pals.android.lib.ui.filechooser.services.LocalFileProvider" />
+    </application>
+</manifest>

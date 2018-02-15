@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aaa_tab_icon_margin">46.0dip</dimen>
+    <dimen name="aaa_splash_height">430.0dip</dimen>
+    <dimen name="aaa_splash_logo_height">240.0dip</dimen>
+    <dimen name="aaa_splash_logo_width">140.0dip</dimen>
+    <dimen name="aaa_call_active_proximitive_height">280.0dip</dimen>
+</resources>

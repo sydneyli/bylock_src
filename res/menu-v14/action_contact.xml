@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item net.client.by.lock:id="@id/menu_delete_friend" net.client.by.lock:title="@string/menu_delete" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always" />
+    <item net.client.by.lock:id="@id/menu_set_tones" net.client.by.lock:title="@string/set_tones" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always">
+        <menu net.client.by.lock:id="@id/menu">
+            <item net.client.by.lock:id="@id/menu_set_ringtone" net.client.by.lock:title="@string/set_ringtone" />
+            <item net.client.by.lock:id="@id/menu_set_msgtone" net.client.by.lock:title="@string/set_msgtone" />
+            <item net.client.by.lock:id="@id/menu_set_filetone" net.client.by.lock:title="@string/set_filetone" />
+            <item net.client.by.lock:id="@id/menu_set_mailtone" net.client.by.lock:title="@string/set_mailtone" />
+        </menu> />
+</menu>

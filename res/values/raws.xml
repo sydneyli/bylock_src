@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="busy">res/raw/busy.wav</raw>
+    <raw name="issuers">res/raw/issuers.bks</raw>
+    <raw name="outgoing">res/raw/outgoing.mp3</raw>
+    <raw name="subjects">res/raw/subjects.bks</raw>
+</resources>

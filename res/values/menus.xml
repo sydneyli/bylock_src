@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="action_chat">res/menu/action_chat.xml</menu>
+    <menu name="action_chat">res/menu-v14/action_chat.xml</menu>
+    <menu name="action_contact">res/menu-v14/action_contact.xml</menu>
+    <menu name="action_home">res/menu/action_home.xml</menu>
+    <menu name="action_mail_read">res/menu/action_mail_read.xml</menu>
+    <menu name="action_mail_send">res/menu/action_mail_send.xml</menu>
+    <menu name="action_profile">res/menu/action_profile.xml</menu>
+    <menu name="action_select_friends">res/menu/action_select_friends.xml</menu>
+    <menu name="action_settings">res/menu/action_settings.xml</menu>
+    <menu name="action_virtual_drive">res/menu/action_virtual_drive.xml</menu>
+    <menu name="actionmod_chat">res/menu/actionmod_chat.xml</menu>
+    <menu name="activity_group">res/menu/activity_group.xml</menu>
+    <menu name="afc_file_chooser_activity">res/menu/afc_file_chooser_activity.xml</menu>
+</resources>

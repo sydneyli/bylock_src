@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@ba/afc_filechooser_activity_menugroup_navigator">
+        <item android:icon="@az/afc_ic_menu_home" android:id="@ba/afc_filechooser_activity_menuitem_home" android:title="@be/afc_cmd_home" android:showAsAction="ifRoom" />
+        <item android:icon="@az/afc_ic_menu_reload" android:id="@ba/afc_filechooser_activity_menuitem_reload" android:title="@be/afc_cmd_reload" android:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@ba/afc_filechooser_activity_menugroup_sorter">
+        <item android:id="@ba/afc_filechooser_activity_menuitem_sort" android:title="@be/afc_cmd_sort" android:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@ba/afc_filechooser_activity_menugroup_view">
+        <item android:id="@ba/afc_filechooser_activity_menuitem_switch_viewmode" android:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@ba/afc_filechooser_activity_menugroup_editor">
+        <item android:icon="0x1080033" android:id="@ba/afc_filechooser_activity_menuitem_new_folder" android:title="@be/afc_cmd_new_folder" android:showAsAction="ifRoom" />
+    </group>
+</menu>

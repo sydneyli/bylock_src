@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item net.client.by.lock:icon="@drawable/ic_action_select_all" net.client.by.lock:id="@id/actionmod_select_all" net.client.by.lock:title="@string/select_all" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always" />
+    <item net.client.by.lock:icon="@drawable/ic_action_copy" net.client.by.lock:id="@id/actionmod_copy" net.client.by.lock:title="@string/copy_selection" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always" />
+    <item net.client.by.lock:icon="@drawable/ic_action_discard" net.client.by.lock:id="@id/actionmod_delete" net.client.by.lock:title="@string/delete_selection" net.client.by.lock:showAsAction="always" net.client.by.lock:showAsAction="always" />
+</menu>

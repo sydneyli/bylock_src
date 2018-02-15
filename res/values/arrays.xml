@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pages">
+        <item>Profile</item>
+        <item>Mail</item>
+        <item>Home</item>
+        <item>Downloads</item>
+        <item>Add Friend</item>
+    </array>
+    <array name="pass_security">
+        <item>Secure</item>
+        <item>At Least 1 SYMBOL is Needed</item>
+        <item>At Least 1 NUMBER is Needed</item>
+        <item>At Least 1 LETTER is Needed</item>
+        <item>Password is Too Short</item>
+    </array>
+</resources>

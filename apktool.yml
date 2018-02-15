@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ByLockSecureChatTalk_v1.1.7_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- arsc
+- bks
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '17'
+  versionName: 1.1.7

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="afc_pkey_display_sort_ascending_def">true</bool>
+    <bool name="afc_pkey_display_show_time_for_old_days_this_year_def">false</bool>
+    <bool name="afc_pkey_display_show_time_for_old_days_def">false</bool>
+    <bool name="afc_pkey_display_remember_last_location_def">true</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
+    <bool name="abc_split_action_bar_is_narrow">true</bool>
+    <bool name="abc_split_action_bar_is_narrow">false</bool>
+    <bool name="abc_split_action_bar_is_narrow">false</bool>
+    <bool name="abc_split_action_bar_is_narrow">false</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+</resources>

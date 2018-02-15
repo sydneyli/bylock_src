@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@ba/afc_filechooser_activity_viewgroup_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:id="@ba/afc_filechooser_activity_button_go_back" android:layout_alignParentLeft="true" style="@style/afc_button_navi_left" />
+        <ImageView android:id="@ba/afc_filechooser_activity_button_go_forward" android:layout_toRightOf="@ba/afc_filechooser_activity_button_go_back" style="@style/afc_button_navi_right" />
+        <RelativeLayout android:id="@ba/afc_filechooser_activity_viewgroup_button_locations" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@ay/afc_5dp" android:layout_marginRight="@ay/afc_5dp" android:layout_toRightOf="@ba/afc_filechooser_activity_button_go_forward" android:layout_alignParentRight="true">
+            <HorizontalScrollView android:id="@ba/afc_filechooser_activity_view_locations_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@ba/afc_filechooser_activity_view_locations" android:layout_width="wrap_content" android:layout_height="match_parent" android:showDividers="middle" />
+            </HorizontalScrollView>
+            <View android:id="@ba/afc_filechooser_activity_header_view_divider" android:background="@color/afc_border_line_dark" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080008" android:layout_below="@ba/afc_filechooser_activity_view_locations_container" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:ellipsize="start" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@ba/afc_filechooser_activity_textview_full_dir_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@ba/afc_filechooser_activity_header_view_divider" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@ba/afc_filechooser_activity_viewgroup_files" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@ay/afc_10dp" android:layout_marginBottom="@ay/afc_10dp" android:layout_above="@ba/afc_filechooser_activity_viewgroup_footer_container" android:layout_below="@ba/afc_filechooser_activity_viewgroup_header"
+        <LinearLayout android:orientation="horizontal" android:id="@ba/afc_filechooser_activity_view_files_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="italic" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@ba/afc_filechooser_activity_view_files_footer_view" android:padding="@ay/afc_10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@ba/afc_filechooser_activity_viewgroup_footer_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:id="@ba/afc_filechooser_activity_footer_view_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f080008" />
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@ba/afc_filechooser_activity_viewgroup_footer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textAppearance="?unknown_attr_ref: 1010040" android:id="@ba/afc_filechooser_activity_textview_saveas_filename" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="@ay/afc_5dp" android:hint="@be/afc_hint_save_as_filename" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious">
+                <requestFocus />
+            </EditText>
+            <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@ba/afc_filechooser_activity_button_ok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@ay/afc_5dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

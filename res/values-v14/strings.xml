@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_ringtone">Call</string>
+    <string name="set_filetone">File</string>
+    <string name="set_mailtone">Mail</string>
+    <string name="set_msgtone">Message</string>
+</resources>
